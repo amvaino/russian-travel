@@ -42,7 +42,7 @@ ul {
     margin-bottom: 8px;
 }
 .lead__caption {
-    margin-left: 16px;
+    margin: auto 16px;
 }
 .intro {
     margin: 0 16px 0;
@@ -51,4 +51,38 @@ ul {
     font-weight: bold;
     line-height: 35px;
     font-size: 32px;
+    margin: 0 0 40px;
+}
+.intro__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    margin: 0;
+}
+.intro__list {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+.photo-grid {
+    margin: 0 16px 0;
+    display: grid;
+    gap: 12px;
+}
+.place{
+    margin: 0;
+}
+.place__title {
+    font-weight: bold;
+    line-height: 35px;
+    font-size: 32px;
+    margin: 0 0 40px;
+}
+.place__photo {
+    width: 100%;
+}
+.cover {
+    background-image: url(/images/baikal_poezd.jpg);
+    height: 740px;
 }
