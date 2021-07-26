@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Путешествие по России</title>
+    <link rel="stylesheet" href="pages/index.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="page">
         <header class="header">
-            <div class="logo"><img src="/images/__logo.png" alt=""></div>
-            <ul>
-                <li class="lang-link">Ru</li>
-                <li class="lang-link">En</li>
+            <img src="/images/__logo.png" alt="Логотип" class="header__logo">
+            <ul class="header__ul">
+                <li class="header__lang-link header__lang-link_active">Ru</li>
+                <li class="header__lang-link">En</li>
             </ul>
         </header>
-        <div class="content">
+        <main class="content">
             <div class="lead">
                 <h1 class="title">Путешествия по России</h1>
                 <p class="subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
@@ -57,7 +58,7 @@
                     <h2 class="place__title">Куршская коса</h2>
                     <p class="place__url-heading">URL</p>
                     <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
-                    <img class="place__photo" src="/images/park-kosa.jpg" alt="Парк Коса"></li>
+                    <img class="place__photo" src="/images/park-kosa.jpg" alt="Парк Коса">
                     <p class="place__paragraph place__paragraph_place_top">Здесь, посреди лесов и песчаных дюн, 
                         вы сможете увидеть два водных горизонта — спокойного 
                         Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. 
@@ -73,7 +74,7 @@
                 <h2 class="place__title">Кольский</h2>
                 <p class="place__url-heading">URL</p>
                 <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link" target="_blank">National Geographic</a>
-                <img class="place__photo" src="/images/kolskiy.jpg" alt="Кольский"></li>
+                <img class="place__photo" src="/images/kolskiy.jpg" alt="Кольский">
                 <p class="place__paragraph place__paragraph_place_top">Почти весь полуостров находится за Полярным кругом. Саамская тундра, 
                     от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
                 <p class="place__paragraph place__paragraph_place_bottom">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. 
@@ -85,7 +86,7 @@
                     <h2 class="place__title">Алтай</h2>
                     <p class="place__url-heading">URL</p>
                     <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link" target="_blank">Facebook</a>
-                    <img class="place__photo" src="/images/altay.jpg" alt="Кольский"></li>
+                    <img class="place__photo" src="/images/altay.jpg" alt="Кольский">
                     <p class="place__paragraph place__paragraph_place_top">Алтай — одно из красивейших мест в России. В первую очередь из-за гор: 
                         если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. 
                         А если вы откроете в автомобиле окна, 
@@ -99,7 +100,7 @@
                     <h2 class="place__title">Зимний Байкал</h2>
                     <p class="place__url-heading">URL</p>
                     <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
-                    <img class="place__photo" src="/images/baikalmile.jpg" alt="Кольский"></li>
+                    <img class="place__photo" src="/images/baikalmile.jpg" alt="Кольский">
                     <p class="place__paragraph place__paragraph_place_top">Всем известен Байкал как крупнейшее озеро в мире.
                         Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
                     <p class="place__paragraph place__paragraph_place_bottom">Конечно, это всё так. Но Байкал ещё идеальное место для 
@@ -111,7 +112,7 @@
                     <h2 class="place__title">Карелия</h2>
                     <p class="place__url-heading">URL</p>
                     <a href="http://vodlozero.ru" class="place__link" target="_blank">http://vodlozero.ru/</a>
-                    <img class="place__photo" src="/images/karelia.jpg" alt="Кольский"></li>
+                    <img class="place__photo" src="/images/karelia.jpg" alt="Кольский">
                     <p class="place__paragraph place__paragraph_place_top">Сибирь заканчивается не на Урале, а в Карелии: 
                         образующая тайгу сибирская лиственница не растёт западнее Водлозера. 
                         Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. 
@@ -127,8 +128,7 @@
                     о Транссибе — путешествие 
                     от столицы до Байкала на электричках.</p>
             </a>    
-        </div>
-        </div>             
+        </div>            
         </main>
         <footer class="footer">
             <a class="footer__link" href="#" target="_blank">Погода</a>
