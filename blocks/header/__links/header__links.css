@@ -1,0 +1,13 @@
+.header__links {
+    display: flex;
+    margin-top: 28px;
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+
+
+    .header__links {
+        margin-top: 30px;
+    }
+}
