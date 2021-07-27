@@ -1,34 +1,4 @@
 
-.intro {
-    width: 690px;
-}
-.intro__title {
-    font-weight: 900;
-    line-height: 58px;
-    font-size: 54px;
-    margin: 0 0 40px;
-}
-.intro__text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26.08px;
-    margin-top: 0;
-    margin-bottom: 33px;
-}
-.intro-list {
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
-}
-.intro-list__list-item {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-}
-
-
-
 
 .photo-grid {
     margin: 0 16px 0;

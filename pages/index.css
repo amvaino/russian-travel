@@ -12,4 +12,9 @@
 @import url(/blocks/lead/__subtitle/lead__subtitle.css);
 @import url(/blocks/lead/__image/lead__image.css);
 @import url(/blocks/lead/__caption/lead__caption.css);
+@import url(/blocks/intro/intro.css);
+@import url(/blocks/intro/__text/intro__text.css);
+@import url(/blocks/intro/__title/intro__title.css);
+@import url(/blocks/small-list/small__list.css);
+@import url(/blocks/small-list/__list-item/small-list__list-item.css);
 
