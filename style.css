@@ -2,44 +2,6 @@
 
 
 
-.cover {
-    background: url(/images/baikal_poezd.jpg) 100% 100% no-repeat;
-    background-size: cover;
-    padding: 33px 16px;
-    opacity: 0.8;
-}
-
-.cover:hover {
-    opacity: 0.3;
-    transition: all 1s;
-}
-
-.cover__overlay {
-    text-decoration: none;
-    color: white;
-}
-
-.cover__background{
-    width: 100%;
-    object-fit: cover;
-    object-position: top;
-}
-.cover__title {
-    font-weight: bold;
-    text-align: center;
-    line-height: 35px;
-    font-size: 32px;
-    margin: 0 auto 16px;
-    color: white;
-    text-decoration: none;
-}
-.cover__subtitle{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    margin: 0 auto;
-}
 .footer {
     justify-content: space-between;
     display: flex;

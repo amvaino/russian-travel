@@ -1,0 +1,25 @@
+.cover {
+    background: url(/images/baikal_poezd.jpg) 100% no-repeat;
+    -webkit-background-size: cover;
+    width: 1184px;
+    height: 740px;
+    background-color: #2A2C2F;
+    position: relative;
+}
+.cover:after {
+    content:"";
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:#2A2C2F;
+    opacity:0.3;
+    transition:all 1s;
+    }
+
+.cover:hover:after{
+    opacity:0.8;
+    transition: all 1s;
+}
