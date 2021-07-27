@@ -1,39 +1,3 @@
-.lead {
-    max-width: 984px;
-    margin: 0 auto;
-}
-
-.lead__title {
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 100px;
-    text-align: center;
-    margin: 56px 132px 32px;
-
-}   
-.lead__subtitle {
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-    margin: 0 172px 64px;
-}
-.lead__image {
-    width: 100%;
-    margin-bottom: 8px;
-}
-.lead__caption {
-    margin: 0;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 14px;
-    letter-spacing: 1.5px;
-    margin-bottom: 92px;
-}
-
-
-
-
 
 .intro {
     margin: 0 16px 0;
