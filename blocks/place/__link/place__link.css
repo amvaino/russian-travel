@@ -9,6 +9,7 @@
     align-self: flex-end;
     text-decoration: none;
     inline-size: fit-content;
+    text-decoration: underline 1px;
 }
 .place__link:after {
     background-color: #fff;
