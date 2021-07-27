@@ -3,23 +3,36 @@
 
 
 .footer {
-    justify-content: space-between;
+    width: 1184px;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: flex-start;
 }
 .footer__link {
-    line-height: 24px;
-    font-size: 24px;
+    margin-right: 18px;
+    margin-top: 92px;
+    margin-bottom: 24px;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 400;
     color: white;
     text-decoration: none;
-    margin-top: 32px;
+    margin-top: 92px;
     cursor: pointer;
+}
+.footer__link:last-child {
+    margin-right: 0;
 }
 .footer__copyright {
     font-size: 14px;
-    line-height: 14px;
-    font-weight: normal;
-
+    line-height: 16px;
+    font-weight: 400;
+    margin-top: 94px;
 }
 
 

@@ -8,4 +8,19 @@
     margin-left: 40px;
     align-self: flex-end;
     text-decoration: none;
+    inline-size: fit-content;
+}
+.place__link:after {
+    background-color: #fff;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.place__link:hover:after,
+.place__link:focus:after {
+    width: 100%;
 }
