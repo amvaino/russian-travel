@@ -1,61 +1,7 @@
-.places {
-    margin: 0 148px;
-}
-.place{
-    margin: 50px auto;
-    display: grid;
-    grid-template-rows: repeat(4,auto);
-    grid-template-columns: repeat(2, auto);
-    justify-content: center;
-    gap: 16px;
-}
-.place__title {
-    font-weight: bold;
-    line-height: 35px;
-    font-size: 32px;
-    margin: 33px auto 16px;
-    color: white;
-    text-decoration: none;
-    align-self: end;
-    justify-self: start;
-    grid-column: 1;
-    grid-row: 1/2;
-}
-.place__url-heading {
-    color: #aaaa;
-    grid-column: 2;
-    grid-row: 1;
-    align-self: end;
-    justify-self: start;
-    margin: 0;
-}
-.place__link {
-    color: white;
-    grid-column: 2;
-    grid-row: 2;
-}
-.place__photo {
-    width: 100%;
-    max-width: 460px;
-    align-self: end;
-    justify-self: start;
-    grid-column: 1;
-    grid-row: 3/5;
-}
-.place__paragraph {
-    margin: 16px;
-    align-self: start;
-    justify-self: start;
-}
 
-.place__paragraph_place_top{
-    grid-column: 2;
-    grid-row: 3/4;
-}
-.place__paragraph_place_bottom{
-    grid-column: 2;
-    grid-row: 4/5;
-}
+
+
+
 .cover {
     background: url(/images/baikal_poezd.jpg) 100% 100% no-repeat;
     background-size: cover;

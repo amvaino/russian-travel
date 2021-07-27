@@ -1,0 +1,7 @@
+.place__photo {
+    margin-top: 48px;
+    width: 100%;
+    max-width: 460px;
+    grid-column: 1;
+    grid-row: 3/5;
+}

@@ -1,0 +1,5 @@
+.place__paragraph_location_bottom{
+    grid-column: 2;
+    grid-row: 4/5;
+    margin: 26px 0 0;
+}
