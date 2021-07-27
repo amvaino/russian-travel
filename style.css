@@ -1,30 +1,22 @@
-.header__lang-link {
-    list-style-type: none;
-    display: inline;
-    line-height: 28px;
-    font-size: 24px;
-    margin-top: 18px;
-    margin-left: 18px;
-    margin-bottom: 6px;
-    text-decoration: none;
-    color: #fff;
-    justify-content: flex-end;
-}
-.header__lang-link_active {
-    text-decoration: underline;
+.lead {
+    max-width: 984px;
+    margin: 0 auto;
 }
 
-.title {
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 44px;
+.lead__title {
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
     text-align: center;
+    margin: 56px 132px 32px;
+
 }   
-.subtitle {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+.lead__subtitle {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
     text-align: center;
+    margin: 0 172px 64px;
 }
 .lead__image {
     width: 100%;
@@ -33,6 +25,11 @@
 .lead__caption {
     margin: auto 16px;
 }
+
+
+
+
+
 .intro {
     margin: 0 16px 0;
 }
@@ -193,13 +190,25 @@
 }
 @media screen and (max-width: 320px) {
     /* стили для малого смартфона */
-    .header__lang-link {
+    .lead__title {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+    }   
+    .lead__subtitle {
+        font-weight: 400;
+        font-size: 16px;
         line-height: 20px;
-        font-size: 18px;
-        margin-left: 18px;
-        margin-bottom: 6px;
+        text-align: center;
     }
-
+    .lead__image {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .lead__caption {
+        margin: auto 16px;
+    }
     .places {
         margin: 0 auto;
 }

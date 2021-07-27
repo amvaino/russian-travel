@@ -1,13 +1,11 @@
-.header__links {
+.header__lang-links {
     display: flex;
     margin-top: 28px;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
-
-
-    .header__links {
+    .header__lang-links {
         margin-top: 30px;
     }
 }
