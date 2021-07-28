@@ -2,7 +2,12 @@
 
 @media screen and (max-width: 1024px) {
     /* стили для планшета в альбомной ориентации */
-
+    .page {
+        max-width: 1024;
+    }
+    .lead {
+        max-width: 928px;
+    }
     
 }
 @media screen and (max-width: 768px) {
@@ -10,36 +15,100 @@
 
 
 }
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
+    .body {
+        max-width: 320px;
+    }
+    .page {
+        max-width: 320px;
+    }
+    .content {
+        display: block;
+    }
+    .lead {
+        max-width: 100%;
+        margin: 0;
+    }
+    .lead__image {
+        max-width:320px;
+    }
+    .photo-grid {
+        grid-template-columns: repeat(1, 1fr);
+        width: 320px;
+        gap: 12px;
+    }
+    .cover {
+        width: 320px;
+        height: 200px;
+    }
+    .footer {
+        width: 320px;
+    }
     /* стили для малого смартфона */
     .lead__title {
         font-weight: bold;
         font-size: 40px;
         line-height: 44px;
         text-align: center;
+        margin: 48px 16px 16px;
+        width: 288px;
     }   
     .lead__subtitle {
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;
         text-align: center;
+        margin: 0 16px 40px;
+        width: 288px;
     }
     .lead__image {
         width: 100%;
         margin-bottom: 8px;
     }
     .lead__caption {
-        margin: auto 16px;
+        width: 158px;
     }
+    .intro__title {
+        max-width: 690px;
+        font-weight: 900;
+        line-height: 58px;
+        font-size: 54px;
+        margin: 0 0 40px 100px;
+    }
+    .intro__title {
+        max-width: 288px;
+        font-weight: 900;
+        line-height: 35px;
+        font-size: 32px;
+        margin: 0;
+    }
+    .intro__text {
+        width: 288px;
+        margin-bottom: 34px;
+        margin-left: 16px;
+    }
+    .intro-list {
+        width: 288px;
+    }
+    .intro-list__list-item {
+        margin-left: 16px;
+    }
+
+
     .places {
         margin: 0 auto;
+        width: 320px;
 }
     .place {
         margin: 64px 0;
+        display: block;
+        width: 320px;
     }
     .place__title {
         grid-column: 1/-1;
         grid-row: 1;
+        line-height: 35px;
+        font-size: 32px;
     }
     .place__url-heading {
         grid-column: 1/-1;
@@ -52,7 +121,15 @@
     .place__photo {
         grid-column: 1/-1;
         grid-row: 4;
+        width: 320px;
     }
+    .place__paragraph {
+        width: 288px;
+        font-size: 16px;
+        line-height: 26.08px;
+        margin-left: 0;
+    }
+
     .place__paragraph_place_top {
         grid-column: 1/-1;
         grid-row: 5;
@@ -60,5 +137,12 @@
     .place__paragraph_place_bottom {
         grid-column: 1/-1;
         grid-row: 6;
+    }
+    .footer {
+        width: 320px;
+        display: block;
+    }
+    .footer__links {
+        display: block;
     }
 } 
