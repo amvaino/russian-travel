@@ -9,3 +9,21 @@
     z-index: 2;
     position: absolute;
 }
+@media screen and (max-width: 1279px) {
+    .cover__subtitle {
+        margin: 379px 332px auto 332px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .cover__subtitle {
+        margin: 299px 204px auto 204px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 119px 16px 0 16px;
+        width: 288px;
+    }
+}

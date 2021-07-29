@@ -19,8 +19,25 @@
     opacity:0.3;
     transition:all 1s;
     }
-
 .cover:hover:after{
     opacity:0.8;
     transition: all 1s;
+}
+@media screen and (max-width: 1279px) {
+    .cover {
+        max-width: 1024px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .cover {
+        width: 768px;
+        height: 480px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .cover {
+        width: 320px;
+        height: 200px;
+        margin: 0;
+    }
 }

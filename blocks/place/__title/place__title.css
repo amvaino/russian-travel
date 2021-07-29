@@ -10,3 +10,19 @@
     grid-column: 1;
     grid-row: 1/2;
 }
+@media screen and (max-width: 1023px) {
+    .place__title {
+        margin-left: 0;
+        line-height: 46px;
+        font-size: 42px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .place__title {
+        grid-column: 1/-1;
+        grid-row: 1;
+        line-height: 35px;
+        font-size: 32px;
+        margin-left: 16px;
+    }
+}

@@ -4,3 +4,11 @@
     line-height: 12px;
     letter-spacing: 2px;
 }
+@media screen and (max-width: 700px) {
+    .place__url-heading {
+        margin-top: 32px;
+        margin-bottom: 12px;
+        grid-column: 1/-1;
+        grid-row: 2;
+    }
+}

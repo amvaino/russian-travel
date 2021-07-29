@@ -6,3 +6,34 @@
     margin: 56px 132px 32px;
 
 }  
+@media screen and (max-width: 1279px) {
+    .lead__title {
+        margin: 48px 104px 32px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .lead__title {
+        margin: 48px 24px 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        margin: 48px 16px 16px;
+        width: 288px;
+    }
+}
+@media (max-width: 320px) {
+    .lead__title {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        margin: 48px 16px 16px;
+        width: 288px;
+    }   
+}

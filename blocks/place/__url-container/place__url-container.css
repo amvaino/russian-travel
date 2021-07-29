@@ -6,3 +6,18 @@
     grid-row: 1;
     margin-left: 40px;
 }
+@media screen and (max-width: 1279px) {
+    .place__url-container {
+        margin-left: 32px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .place__url-container {
+        margin-left: 28px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .place__url-container {
+        margin-left: 16px;
+    }
+}

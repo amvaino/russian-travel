@@ -1,3 +1,23 @@
 .photo-grid__item-img {
     width: 100%;
 }
+@media screen and (max-width: 1279px) {
+    .photo-grid {
+        max-width: 928px;
+        gap: 14px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .photo-grid {
+        max-width: 720px;
+        gap: 16px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .photo-grid {
+        grid-template-columns: repeat(1, 1fr);
+        width: 288px;
+        gap: 12px;
+        margin-left: 16px;
+    }
+}

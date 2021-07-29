@@ -10,11 +10,13 @@
     color: #fff;
     justify-content: flex-end;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 700px) {
+    /* стили для планшета */
+
     .header__lang-link {
         line-height: 20px;
         font-size: 18px;
-        margin-left: 18px;
+        margin-top: 148px;
         margin-bottom: 6px;
     }
 }

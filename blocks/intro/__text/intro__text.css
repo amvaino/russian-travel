@@ -6,3 +6,22 @@
     line-height: 26.08px;
     margin: 0 0 33px 96px;
 }
+@media screen and (max-width: 1279px) {
+    .intro__text {
+        margin-left: 48px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .intro__text {
+        margin-left: 24px;
+        margin-right: 24px;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .intro__text {
+        width: 288px;
+        margin-bottom: 34px;
+        margin-left: 16px;
+    }
+}
