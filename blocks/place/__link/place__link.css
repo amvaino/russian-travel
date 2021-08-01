@@ -5,19 +5,9 @@
     color: #fff;
     text-decoration: underline 2px;
 }
-.place__link:after {
-    background-color: #fff;
-    display: block;
-    content: "";
-    height: 2px;
-    width: 0%;
-    -webkit-transition: width 0.3s ease-in-out;
-    -moz--transition: width 0.3s ease-in-out;
-    transition: width 0.3s ease-in-out;
-}
-.place__link:hover:after,
-.place__link:focus:after {
-    width: 100%;
+.place__link:hover {
+    opacity: 0.8;
+    color: rgb(99, 99, 241);
 }
 @media screen and (max-width: 1279px) {
     .place__link {

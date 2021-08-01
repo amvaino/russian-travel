@@ -9,6 +9,12 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+.footer__link:hover {
+    opacity: 0.8;
+    color: rgb(99, 99, 241);
+}
+
 .footer__link:last-child {
     margin-right: 0;
 }
