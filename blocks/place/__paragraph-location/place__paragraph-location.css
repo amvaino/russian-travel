@@ -1,0 +1,9 @@
+.place__paragraph-location {
+    grid-column: 2;
+    grid-row: 3/5;
+    margin: 0;
+    margin-bottom: 26px;
+}
+.place__paragraph-location:last-child {
+    margin-bottom: 0;
+}
