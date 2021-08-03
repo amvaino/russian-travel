@@ -1,28 +1,11 @@
 .cover {
-    background: url(../../images/baikal_poezd.jpg) 100% no-repeat;
-    -webkit-background-size: cover;
-    width: 1184px;
-    height: 740px;
-    margin: 0 auto;
+    max-width: 1184px;
     background-color: #2a2c2f;
+    display: flex;
+    align-content: center;
     position: relative;
 }
-.cover:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: #2a2c2f;
-    opacity: 0.3;
-    transition: all 1s;
-}
-.cover:hover:after {
-    opacity: 0.8;
-    transition: all 1s;
-}
+
 @media screen and (min-width: 1023px) and (max-width: 1279px) {
     .cover {
         max-width: 1024px;

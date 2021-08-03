@@ -11,7 +11,7 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .page {
         max-width: 320px;
     }

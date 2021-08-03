@@ -3,9 +3,3 @@
     list-style-type: none;
     padding: 0;
 }
-@media screen and (max-width: 700px) {
-    /* стили для планшета */
-    .intro__list {
-        width: 288px;
-    }
-}
