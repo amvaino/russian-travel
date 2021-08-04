@@ -10,7 +10,7 @@
     color: rgb(99, 99, 241);
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .place__link {
         grid-column: 1/-1;
         grid-row: 3;
