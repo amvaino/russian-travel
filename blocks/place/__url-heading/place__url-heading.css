@@ -3,11 +3,12 @@
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 12px;
 }
 @media screen and (max-width: 767px) {
     .place__url-heading {
         margin-top: 32px;
-        margin-bottom: 12px;
         grid-column: 1/-1;
         grid-row: 2;
     }

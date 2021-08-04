@@ -4,6 +4,26 @@
     display: flex;
     align-content: center;
     position: relative;
+    background: url(../../../images/baikal_poezd.jpg) 100% no-repeat;
+    -webkit-background-size: cover;
+    width: 100%;
+    flex-direction: column;
+}
+
+.cover::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #2a2c2f;
+    opacity: 0.3;
+    transition: all 1s;
+}
+.cover:hover:before {
+    opacity: 0.8;
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1279px) {
