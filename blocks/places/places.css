@@ -19,5 +19,6 @@
     .places {
         margin: 0;
         width: 320px;
+        gap: 50px;
     }
 }
